@@ -1,12 +1,6 @@
-title: Android基础——Notification
-date: 2016-09-16 09:01:55
-tags: [android,basic,notification]
----
 
-本文介绍了通知的使用，包括大文本、大图片
+本文介绍了通知的使用，包括大文本、大图片等扩展样式通知及在通知上显示进度指示器和浮动通知的触发条件。
 
-
-<!-- more -->
 
 ### 简单的通知
 一个通知必须要设置的属性：
@@ -443,15 +437,15 @@ Android 5.1 & Android 4.3
 ### Android 7.0新特性
 可以在通知上进行消息的快速回复（Replying to notifications）
 
-![](/art/notification-inline-reply.png)
+![](/art/notification-inline-reply.png) 
 图片来自Android官方文档
 
-![](/art/notification-inline-type-reply.png)
+![](/art/notification-inline-type-reply.png) 
 图片来自Android官方文档
 
 
 折叠通知（Bundling notifications），如果有超过三条来自同一应用的通知，系统会强制进行折叠
-![](/art/notification-bundles.png)
+![](/art/notification-bundles.png) 
 图片来自Android官方文档
 
 更强大的自定义View（Custom Views）
