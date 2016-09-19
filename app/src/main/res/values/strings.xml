@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NotificationDemo</string>
+    <string name="about">About</string>
+    <string name="title_about">About</string>
+    <string name="title_special">Special</string>
+    <string name="contact_me">Contact me</string>
+    <string name="simple">Simple Notification</string>
+    <string name="big_text">Big Text Style Notification</string>
+    <string name="inbox">Inbox Style Notification</string>
+    <string name="update">Update Notification</string>
+    <string name="big_picture">Big Picture Style Notification</string>
+    <string name="special">Special Activity Notification</string>
+    <string name="special_tips">只能从通知栏进入的Activity，并且进入后台不会出现在最近的任务列表中</string>
+    <string name="progress">Progress Notification</string>
+    <string name="progress_indeterminate">Indeterminate Progress Notification</string>
+    <string name="floating_full_screen">Floating Notification by Full Screen Intent</string>
+    <string name="floating_priority">Floating Notification by Priority</string>
+    <string name="lock_screen">Media Style Notification</string>
+    <string name="lock_screen_public">PUBLIC 显示通知的完整内容</string>
+    <string name="lock_screen_secret">SECRET 在锁屏上不显示</string>
+    <string name="lock_screen_private">PRIVATE 显示基本内容 隐藏完整内容</string>
+</resources>

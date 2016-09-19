@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+        <import type="android.support.v4.app.NotificationCompat"/>
+
+        <variable
+            name="handler"
+            type="io.github.yuweiguocn.notificationdemo.ui.main.MainClickHandlers"/>
+
+    </data>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.main.MainActivity">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/view_toolbar"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding">
+
+                <Button
+                    style="@style/WrapContentStyle"
+                    android:onClick="@{handler::simpleNotification}"
+                    android:text="@string/simple"/>
+
+
+                <Button
+                    style="@style/WrapContentStyle"
+                    android:onClick="@{handler::specialActivityNotification}"
+                    android:text="@string/special"/>
+
+
+                <Button
+                    style="@style/WrapContentStyle"
+                    android:onClick="@{handler::bigTextStyleNotification}"
+                    android:text="@string/big_text"/>
+
+
+                <Button
+                    style="@style/WrapContentStyle"
+                    android:onClick="@{handler::inboxStyleNotification}"
+                    android:text="@string/inbox"/>
+
+
+                <Button
+                    style="@style/WrapContentStyle"
+                    android:onClick="@{handler::bigPictureStyleNotification}"
+                    android:text="@string/big_picture"/>
+
+
+                <Button
+                    style="@style/WrapContentStyle"
+                    android:onClick="@{handler::mediaStyleNotification}"
+                    android:text="@string/lock_screen"/>
+
+
+                <Button
+                    style="@style/WrapContentStyle"
+                    android:onClick="@{handler::updateNotification}"
+                    android:text="@string/update"/>
+
+
+                <Button
+                    style="@style/WrapContentStyle"
+                    android:onClick="@{handler::progressNotification}"
+                    android:text="@string/progress"/>
+
+                <Button
+                    style="@style/WrapContentStyle"
+                    android:onClick="@{handler::progressIndeterminateNotification}"
+                    android:text="@string/progress_indeterminate"/>
+
+                <Button
+                    style="@style/WrapContentStyle"
+                    android:onClick="@{handler::fullScreenNotification}"
+                    android:text="@string/floating_full_screen"/>
+
+
+                <Button
+                    style="@style/WrapContentStyle"
+                    android:onClick="@{handler::priorityNotification}"
+                    android:text="@string/floating_priority"/>
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+
+</layout>
