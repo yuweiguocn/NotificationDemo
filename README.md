@@ -438,14 +438,17 @@ Android 5.1 & Android 4.3
 可以在通知上进行消息的快速回复（Replying to notifications）
 
 ![](/art/notification-inline-reply.png) 
+
 图片来自Android官方文档
 
 ![](/art/notification-inline-type-reply.png) 
+
 图片来自Android官方文档
 
 
 折叠通知（Bundling notifications），如果有超过三条来自同一应用的通知，系统会强制进行折叠
-![](/art/notification-bundles.png) 
+![](/art/notification-bundles.png)  
+
 图片来自Android官方文档
 
 更强大的自定义View（Custom Views）
