@@ -18,6 +18,7 @@ private NotificationCompat.Builder generateBuilder(String title, String content)
             .setSmallIcon(R.mipmap.ic_launcher)
             .setContentTitle(title)
             .setContentText(content)
+            .setTicker(content)
             .setAutoCancel(true)
             .setDefaults(NotificationCompat.DEFAULT_ALL);
 }

@@ -42,6 +42,7 @@ public class MainClickHandlers {
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentTitle(title)
                 .setContentText(content)
+                .setTicker(content)
                 .setAutoCancel(true)
                 .setDefaults(NotificationCompat.DEFAULT_ALL);
     }
